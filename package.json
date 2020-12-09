@@ -1,0 +1,33 @@
+{
+  "name": "import-sort-style-andy",
+  "version": "0.0.1",
+  "description": "An import-sort style representing my opinions",
+  "main": "lib/index.js",
+  "scripts": {
+    "format": "prettier --write src/*.js",
+    "build": "babel src --out-dir lib",
+    "build:watch": "babel src --watch --out-dir lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "prettier": "^2.2.1"
+  },
+  "author": "Andrew Ingram",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewIngram/import-sort-style-andy.git"
+  },
+  "homepage": "https://github.com/AndrewIngram/import-sort-style-andy",
+  "bugs": {
+    "url": "https://github.com/AndrewIngram/import-sort-style-andyissues"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ]
+}
